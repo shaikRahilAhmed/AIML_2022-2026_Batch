@@ -1,0 +1,12 @@
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: blueviolet;
+
+}
+.div1 a{
+    margin: 0 15px;
+    font-weight: bold;
+}
