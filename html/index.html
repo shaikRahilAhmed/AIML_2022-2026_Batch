@@ -3,24 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-Commerce Website</title>
+    <title>AIML Department</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+
     <header>
         <nav>
-        <div class="logo">
-            <img src="../src/" alt="imgLogo">
-        </div>
-        <div class="div1">
-            <a>HOME</a>
-            <a>ORDER</a>
-            <a>MENU</a>
-            <a>CONTACT</a>
-            <a>LOGIN</a>
-        </div>
+            <button onclick="openSidebar()">☰</button>
+            <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">×</a>
+                <a href="index.html">Home</a>
+                <a href="studentInfo.html">Student Info</a>
+                <a href="#">Faculties Info</a>
+                <a href="#">Memories</a>
+                <a href="#">Grup Chat</a>
+                <a href="#">Contact</a>
+            </div>
         </nav>
+
+        <div class="clgLogo">
+            <img src="../src/clgLogo.png" alt="clgLogo">
+        </div>
+
+        <div class="branchName">AIML Department 2022-2026</div>
+
+        <div class="grupPhoto">
+            <img src="../src/grupPhoto.jpg" alt="Group Photo" width="1500px">
+        </div>
     </header>
-<link rel="stylesheet" href="../js/script.js"> 
+
+    <footer>
+        <b>2022-2026 @made with love</b>
+    </footer>
+
+    <!-- ✅ Correct way to include JavaScript -->
+    <script src="../js/script.js"></script>
 </body>
 </html>
